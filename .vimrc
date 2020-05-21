@@ -22,7 +22,6 @@ nnoremap <Leader>f :NERDTreeToggle<Enter>
 
 call plug#begin('~/.vim/plugged')
 Plug 'ycm-core/YouCompleteMe'
-Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
 Plug 'leafgarland/typescript-vim'
@@ -32,3 +31,7 @@ Plug 'lyuts/vim-rtags'
 Plug 'mbbill/undotree'
 Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
+
+nnoremap <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
+nnoremap <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
+nnoremap <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
