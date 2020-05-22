@@ -18,7 +18,6 @@ set incsearch
 nnoremap <Leader>f :NERDTreeToggle<Enter>
 
 " turn hybrid line numbers on
-:set number relativenumber
 :set nu rnu
 
 call plug#begin('~/.vim/plugged')
