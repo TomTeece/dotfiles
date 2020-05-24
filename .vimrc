@@ -38,6 +38,7 @@ call plug#end()
 nnoremap <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
 nnoremap <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
+let g:ycm_autoclose_preview_window_after_insertion = 0
 
 colorscheme gruvbox
 set background=dark
