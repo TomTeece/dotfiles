@@ -32,6 +32,7 @@ Plug 'mbbill/undotree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'preservim/nerdtree'
 Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 nnoremap <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
